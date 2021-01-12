@@ -8,30 +8,29 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Tristan",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Junior Full Stack",
     //Line 2 For Header
-    "products, brands,",
+    "ReactNative, ReactJs,",
     //Line 3 For Header
-    "and experience",
+    "Développeur",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "En recherche active d'un nouveau projet professionnel",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "tristan.kaffel@gmail.com",
 
   // End Header Details -----------------------
 
@@ -39,69 +38,67 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "My Moviz", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Application web développée en ReactJS couplé à un backend en NodeJS et une base de données sur MongoDb qui propose, via l'API MovieDB, les dernières sorties cinéma et permet de créer sa propre wishlist.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610464373/qwybiafywrnmfprkgucj.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/mymoviz",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Morning News", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Application Web d'actualités utilisant News API. Connectez-vous, choisissez votre langue, recevez les infos de France ou des USA et sauvegardez vos articles favoris. L'application est développé en ReactJS/NodeJs couplé à une base de données sous MongoDB", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610464508/dddmvwobdrucqbdzkk7h.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/morning-news",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Esport-Influence", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Application Web permettant à des influenceurs et des marques d'etre mis en relation pour cr&er des campagnes de marketing d'influence autour du Gaming. Les marques ont la possiblitées de creer leur campagnes, sélectionner un influenceur et de valider des candidateures, L'application est développé en ReactJS/NodeJs couplé à une base de données sous MongoDB", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610465209/adignx1uezsu3hkut9yo.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/Esport-influence",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "RideOn", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Mobile application de vente d'équipements moto d'occasion. Connectez-vous, photographier les produits que vous mettez en ventes, mettez vous en relation avec les acheteurs. Projet développé en ReactNative avec un backend en NodeJs", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610464906/eqtekmn74g4xr4rmnsrc.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/RideOn",
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "The BikeShop", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "BikeShop est un site e-commerce de vente de vélo, le site est construit en VanillaJS, HTML, CSS et Bootstrap. Il intégre également le système de paiement Stripe.",      //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610464064/sd3sigu38rmokrluw4bd.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/Bikeshop",
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Portfolio", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Portfolio en ligne de mes différents projets. Portfolio crée en ReactJS",      //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://res.cloudinary.com/tristanka/image/upload/v1610464607/tlfenmfzpjigjylqxad0.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/Ktrist/portfolio",
     },
 
     /*
@@ -120,13 +117,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "De retour en France après 6 ans d'expatriation en Afrique puis en Asie avec des postes de responsable des opérations et directeur de filiale d'une SSII Française",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "Je suis actuellement en reconversion professionelle, en tant que développeur FullStack ReactNative & ReactJs",  
+aboutParaThree:
+    "De nature curieux, habitué d'être hors de ma zone de confort j'ai eu l'habitude dès ma première expérience professionelle de travailler puis de diriger des équipes techniques. Il me semblait donc naturel de m'orienter vers le développement informatique",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://ualog.tech/wp-content/uploads/2021/01/tristanK.png",
 
   //   End About Section ---------------------
 
@@ -139,70 +136,65 @@ export default {
       id: 1,
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+        "Je possède les compétences courante de HTML 5, Je maitrise les principales règle de l'affichage HTML. "    },
     {
       id: 2,
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Je maitrise les bases de CSS 3, je connais les principales règles qui régissent son utilisation.",
     },
     {
       id: 3,
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Ma formation a été orienté JavaScript, j'en connais et maitrise donc les règles et usage. De VanillaJS à d'autres framework comme ReactJS.",
     },
     {
       id: 4,
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "J'ai une bonne maitre de ReactJS et ReactNative, plusieurs projets à mon actif sur ces technologies. Je travaille quotidiennement avec ce Framework. ",
     },
     {
       id: 5,
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Je connais les principales librairies graphiques, j'ai une bonne vision de la fonctionalités des composants et comment les utiliser. ",
     },
     {
       id: 6,
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Le developpement informatique est devenu une passion et j'ai décidé d'en faire mon métier à travers différents projets et experiences.",
     },
   ],
 
   // End Skills Section --------------------------
 
+
+  
+
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Le mot de la fin",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
+" Habitué d'être hors de ma zone de confort, je suis débrouillard et curieux depuis toujours, j'ai une constante envie d'évoluer et de m'améliorer. J'aime apprendre en me lançant de nouveaux défis. Force de proposition, je m'adapte facilement aux besoins d'un projet en choisissant les technologies qui me paraissent les plus pertinentes, aussi bien sur le front-end que sur le back-end.",  
+// End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's work together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+    { img: githubIcon, 
+      url: "https://github.com/Ktrist" 
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+   img:  linkedinIcon,
+   url: "https://www.linkedin.com/in/tristankaffel/",
+    }
+    
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
